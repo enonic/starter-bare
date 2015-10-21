@@ -39,3 +39,7 @@ repositories {
         url 'http://repo.enonic.com/public'
     }
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.7'
+}
